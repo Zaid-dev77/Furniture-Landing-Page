@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+header {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 25px;
+    border: 1px solid black;
+
+}
+.Logo {
+    width: 20%;
+    z-index: 10;
+
+}
+ul,li,a {
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    z-index: 10;
+
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 60%;
+    z-index: 10;
+}
+.header-icons {
+    z-index: 10;
+}
+/* HERO section */
+.Hero-Section {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #35736E;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    padding: 60px;
+}
+.hero-right {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+.hero-left {
+    width: 100%;
+    height: 50vh;
+}
+h1 {
+    color: white;
+    font-size: 50px;
+}
+.main-btns {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+.Shop-Now {
+    padding: 15px 32px;
+    border: none;
+    border-radius: 30px;
+    background-color: #FFD748;
+    color: black;
+}
+.Shop-Now,a {
+    font-size: 20px;
+    font-weight: 400;
+}
+.Explore-Now {
+    padding: 15px 32px;
+    border: 1px solid white;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0);
+}
