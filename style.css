@@ -1,93 +1,208 @@
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
-    font-family: Poppins;
+    font-family: Poppins,sans-serif;
 }
-header {
+.hero-section {
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 0px 40px;
+    background-color: #35736E;
+}
+.header {
     width: 100%;
     height: 10vh;
     display: flex;
-    align-items: center;
+    flex-direction: row;
     justify-content: space-between;
-    padding: 0px 25px;
-    border: 1px solid black;
+    align-items: center;
 
 }
-.Logo {
+.logo {
     width: 20%;
-    z-index: 10;
-
-}
-ul,li,a {
+    height: 10vh;
     display: flex;
-    gap: 20px;
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    font-weight: 400;
-    z-index: 10;
-
+    align-items: center;
+    align-items: center;
 }
 .navbar {
+    width: 60%;
     display: flex;
     flex-direction: row;
-    justify-content: end;
-    width: 60%;
-    z-index: 10;
-}
-.header-icons {
-    z-index: 10;
-}
-/* HERO section */
-.Hero-Section {
-    width: 100%;
-    height: 80vh;
-    display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-    background-color: #35736E;
-    position: absolute;
-    top: 0;
-    z-index: 0;
-    padding: 60px;
+}
+ul,li {
+    display: flex;
+    color: white;
+    gap: 20px;
+    align-content: end;
+    font-size: 20px;
+    font-weight: 500;
+}
+.Hero-Inner {
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 .hero-right {
     width: 100%;
-    height: 50vh;
+    height: 38vh;
     display: flex;
+    gap: 40px;
     flex-direction: column;
     justify-content: center;
-    gap: 40px;
+}
+h1 {
+    font-size: 50px;
+    color: white;
 }
 .hero-left {
     width: 100%;
-    height: 50vh;
+    height: 38vh;
 }
-h1 {
-    color: white;
-    font-size: 50px;
-}
-.main-btns {
+.hero-btns {
     width: 100%;
     display: flex;
     flex-direction: row;
     gap: 25px;
 }
-.Shop-Now {
-    padding: 15px 32px;
-    border: none;
+.shop {
+    padding: 12px 25px;
     border-radius: 30px;
     background-color: #FFD748;
     color: black;
-}
-.Shop-Now,a {
+    border: none;
     font-size: 20px;
     font-weight: 400;
 }
-.Explore-Now {
-    padding: 15px 32px;
-    border: 1px solid white;
+.Explore {
+    padding: 12px 45px;
     border-radius: 30px;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: #ffd74800;
+    color: black;
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+    border: 1px solid white;
+}
+
+/* Second section */
+
+.Product-section {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 40px;
+    gap: 15px;
+}
+.row-one {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+h2 {
+    font-size: 34px;
+    font-weight: 600;
+}
+.product-btn {
+    padding: 12px 25px;
+    border: none;
+    background-color: #35736E;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 30px;
+}
+.row-two {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #dce5e4;
+    border-radius: 20px;
+    align-items: center;
+}
+.product-img {
+    position: absolute;
+    top: 68%;
+}
+span {
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 100px;
+}
+
+/* WHY CHOOSE US */
+
+.Why-Choose {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0px 40px;
+}
+.why-right {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+}
+.r-inner {
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    justify-content: center;
+}
+.icon-boxes {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: center;
+}
+.why-left {
+    position: relative;
+    width: 100%;
+}
+.why-usimg {
+   position: absolute;
+   right: 0;
+   top: 10px;
+}
+
+/* FOURTH SECTION STYLING */
+
+.fourth-section {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0px 40px;
+}
+.fourth-r {
+    width: 100%;
+    border: 1px solid red;
+}
+.fourth-l {
+    width: 100%;
+    border: 1px solid black;
 }
