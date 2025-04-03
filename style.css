@@ -200,9 +200,160 @@ span {
 }
 .fourth-r {
     width: 100%;
-    border: 1px solid red;
+    position: relative;
+}
+.dotted-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.Image-one {
+    position: absolute;
+    left: 12%;
+    top: 10%;
+}
+.Image-two {
+    position: absolute;
+    right: 0;
+    top: 10%;
+}
+.Image-three {
+    position: absolute;
+    top: 45%;
+    right: 0;
 }
 .fourth-l {
     width: 100%;
-    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    padding: 0px 0px 0px 20px;
+}
+.fourth-iconlist {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 25px;
+}
+.icon-list {
+    margin-top: 25px;
+    color: black;
+    font-size: 16px;
+    align-items: center;
+}
+.fourth-btn {
+    display: inline;
+    border: none;
+    padding: 12px 45px;
+    border-radius: 30px;
+    color: white;
+    width: 25%;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #35736E;
+}
+
+/* 5th-section styling */
+
+.fifth-section {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0px 40px;
+}
+.f-inner {
+    position: relative;
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 16px;
+
+}
+.fone-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    background-color: #b7cbca;
+    height: 9vh;
+    border-radius: 6px;
+}
+.f-image {
+    position: absolute;
+    top: 5px;
+}
+.ftwo-inner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.f-btn {
+    display: inline;
+    border: none;
+    background-color: white;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* TESTIMONIAL SECTION STYLING */
+
+.testimonial {
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 40px;
+    gap: 50px;
+}
+.testimonial-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    gap: 40px;
+}
+.carousel-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+/* TEAM MEMBERS SECTION STYLING */
+
+.Team-members {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 40px;
+}
+.team {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 15px;
+}
+.team-position {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
 }
